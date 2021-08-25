@@ -1,0 +1,74 @@
+/* whole entry container */
+.entry {
+  display: flex;
+  background-color: rgb(255, 244, 228);
+  width: 100%;
+  height: 70px;
+  max-width: 82.4rem;
+  border: 2px solid white;
+  max-width: 82.4rem;
+  border-bottom: none;
+  flex-wrap: wrap;
+}
+
+/* entry buttons */
+.deleteButton {
+  position: relative;
+  padding-right: 5px;
+  margin-left: 5px;
+  top: 19px;
+  font-size: 20px;
+}
+.deleteButton:hover {
+  color: #888;
+  cursor: pointer;
+}
+.updateButton {
+  margin-left: auto;
+  position: relative;
+  top: 20px;
+}
+.updateButton:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.infoButton {
+  position: relative;
+  top: 20px;
+}
+.infoButton:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+/* image */
+
+.entryImageContainer {
+  padding: 5px;
+  margin-right: auto;
+  position: relative;
+}
+
+.entryProfilePic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* name */
+
+.entryNameContainer {
+  padding-left: 5px;
+}
+.entryP {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: large;
+}
+
+/* all detailes continer */
+.entryDets {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 80.5%;
+}
+html {
+  height: 100%;
+}
+
+.App {
+  background-color: #fff;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding-left: var(--margin-left);
+  text-align: center;
+}
+
+footer {
+  padding: 1.5rem;
+  padding-left: var(--margin-left);
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  margin-top: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/***** headers *****/
+h1 {
+  font-size: 3rem;
+  color: #000000;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #f28123;
+  font-weight: 900;
+}

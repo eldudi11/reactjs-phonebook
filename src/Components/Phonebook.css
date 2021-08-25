@@ -1,0 +1,56 @@
+/* the whole address book container*/
+.book {
+  height: 60%;
+  padding: 2rem;
+  padding-left: var(--margin-left);
+  position: relative;
+  width: 960px;
+  margin: auto;
+}
+
+/* options buttons (search. remove all, add)*/
+
+.useroptions {
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+.optionBtn {
+  padding: 0.7rem 1.2rem;
+  border: 0.1rem solid #ffffff;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: black;
+  margin: 0 0.3em 0.3em 0;
+}
+
+.optionBtn:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.searchrecord {
+  background-color: black;
+  color: white;
+  border: 0.1rem solid #ffffff;
+  border-radius: 0.12em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 0.7rem 1.2rem;
+  margin: 0 0.3em 0.3em 0;
+  max-width: 30rem;
+}
+/* address book entries container*/
+.showBook {
+  text-align: center;
+  position: relative;
+  max-width: 82.4rem;
+  border-bottom: none;
+  margin: 3px;
+}
